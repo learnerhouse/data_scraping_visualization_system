@@ -45,6 +45,21 @@ note/
 └── DEPLOYMENT.md              # 部署指南
 ```
 
+## 🌐 在线访问
+
+如果已经部署到 GitHub Pages，可以通过以下地址访问：
+
+```
+https://learnerhouse.github.io/data_scraping_visualization_system/
+```
+
+**重要提示**：
+- 仓库名：`data_scraping_visualization_system`（注意拼写）
+- URL 结尾需要 `/`
+- 首次部署可能需要等待 5-10 分钟
+
+如果访问显示 README.md 或无法访问网站，请查看 [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) 进行故障排查。
+
 ## 🚀 快速开始
 
 ### 前置要求
