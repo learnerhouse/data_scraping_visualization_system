@@ -1,0 +1,1 @@
+sqlite3 scraper.db .dump > dump.sql

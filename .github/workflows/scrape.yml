@@ -1,0 +1,49 @@
+name: Daily Scraping
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+      
+      - name: Run scraper
+        run: |
+          cd scraper
+          python main.py
+      
+      - name: Generate data files
+        run: |
+          cd scraper
+          python data_generator.py
+      
+      - name: Commit and push data
+        run: |
+          git config user.name 'GitHub Actions'
+          git config user.email 'actions@github.com'
+          git add data/
+          git add frontend/public/data/
+          git commit -m "Update scraped data" || exit 0
+          git push
+      
+      - name: Trigger build workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: data-updated
