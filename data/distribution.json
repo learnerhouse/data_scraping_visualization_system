@@ -1,0 +1,22 @@
+[
+  {
+    "source": "社交媒体",
+    "count": 5234,
+    "percentage": 0.343
+  },
+  {
+    "source": "新闻网站",
+    "count": 4567,
+    "percentage": 0.300
+  },
+  {
+    "source": "金融 API",
+    "count": 3890,
+    "percentage": 0.255
+  },
+  {
+    "source": "其他",
+    "count": 1543,
+    "percentage": 0.102
+  }
+]
