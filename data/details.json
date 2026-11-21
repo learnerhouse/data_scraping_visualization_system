@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "source": "社交媒体",
+    "title": "2026年科技发展趋势分析",
+    "content": "本文分析了2026年科技发展的主要趋势，包括人工智能、区块链、量子计算等领域...",
+    "url": "https://example.com/article/1",
+    "category": "科技",
+    "tags": ["人工智能", "区块链", "科技趋势"],
+    "metadata": {"author": "张三", "views": 15234, "likes": 856},
+    "scraped_at": "2026-01-18T10:30:00Z",
+    "published_at": "2026-01-17T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "source": "新闻网站",
+    "title": "全球金融市场动态",
+    "content": "报道全球金融市场的最新动态，包括股票、债券、外汇等市场表现...",
+    "url": "https://example.com/news/2",
+    "category": "金融",
+    "tags": ["股市", "金融", "经济"],
+    "metadata": {"author": "李四", "views": 8901, "likes": 432},
+    "scraped_at": "2026-01-18T11:45:00Z",
+    "published_at": "2026-01-17T14:00:00Z"
+  },
+  {
+    "id": 3,
+    "source": "金融 API",
+    "title": "比特币价格突破新高",
+    "content": "比特币价格今日突破新高，达到历史最高点，市场反应热烈...",
+    "url": "https://api.example.com/data/3",
+    "category": "加密货币",
+    "tags": ["比特币", "加密货币", "价格"],
+    "metadata": {"price": 45000.50, "change": 5.2},
+    "scraped_at": "2026-01-18T12:00:00Z",
+    "published_at": "2026-01-18T08:00:00Z"
+  },
+  {
+    "id": 4,
+    "source": "社交媒体",
+    "title": "人工智能改变生活",
+    "content": "人工智能技术正在深刻改变我们的生活方式，从智能家居到自动驾驶...",
+    "url": "https://example.com/article/4",
+    "category": "人工智能",
+    "tags": ["AI", "人工智能", "科技"],
+    "metadata": {"author": "王五", "views": 12056, "likes": 678},
+    "scraped_at": "2026-01-18T13:15:00Z",
+    "published_at": "2026-01-16T16:00:00Z"
+  },
+  {
+    "id": 5,
+    "source": "新闻网站",
+    "title": "新能源产业发展报告",
+    "content": "新能源产业快速发展，太阳能、风能等清洁能源占比持续提升...",
+    "url": "https://example.com/news/5",
+    "category": "能源",
+    "tags": ["新能源", "太阳能", "环保"],
+    "metadata": {"author": "赵六", "views": 6789, "likes": 321},
+    "scraped_at": "2026-01-18T14:30:00Z",
+    "published_at": "2026-01-16T10:00:00Z"
+  },
+  {
+    "id": 6,
+    "source": "金融 API",
+    "title": "股市指数分析",
+    "content": "分析主要股市指数的走势和影响因素，为投资者提供参考...",
+    "url": "https://api.example.com/data/6",
+    "category": "股票",
+    "tags": ["股市", "指数", "投资"],
+    "metadata": {"index": "上证指数", "value": 3456.78, "change": 1.2},
+    "scraped_at": "2026-01-18T15:45:00Z",
+    "published_at": "2026-01-18T09:00:00Z"
+  },
+  {
+    "id": 7,
+    "source": "社交媒体",
+    "title": "量子计算新突破",
+    "content": "量子计算领域取得重要突破，为密码学、药物研发等领域带来新机遇...",
+    "url": "https://example.com/article/7",
+    "category": "科技",
+    "tags": ["量子计算", "科技", "突破"],
+    "metadata": {"author": "孙七", "views": 9876, "likes": 543},
+    "scraped_at": "2026-01-18T16:00:00Z",
+    "published_at": "2026-01-15T18:00:00Z"
+  },
+  {
+    "id": 8,
+    "source": "新闻网站",
+    "title": "5G网络覆盖扩展",
+    "content": "5G网络覆盖范围持续扩大，为物联网、自动驾驶等应用提供支持...",
+    "url": "https://example.com/news/8",
+    "category": "通信",
+    "tags": ["5G", "网络", "通信"],
+    "metadata": {"author": "周八", "views": 7654, "likes": 387},
+    "scraped_at": "2026-01-18T17:15:00Z",
+    "published_at": "2026-01-15T14:00:00Z"
+  }
+]
